@@ -7,7 +7,7 @@ my_pass = "ohhn vfpe ozih yccf"
 
 now = dt.datetime.now()
 weekday = now.weekday()
-if weekday == 5:
+if weekday == 0:
     with open("text.txt") as file:
         all_quotes = file.readlines()
         quote = random.choice(all_quotes)
